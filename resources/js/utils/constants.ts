@@ -1,5 +1,5 @@
 
-import { Experience, Education, Skill, Project } from './types';
+import { Experience, Education, SkillCategory, Project } from './types';
 
 export const PERSONAL_INFO = {
   name: "Anhar Mohammed",
@@ -133,18 +133,50 @@ export const EDUCATION: Education[] = [
   }
 ];
 
-export const SKILLS: Skill[] = [
-  { name: "Laravel", category: "Web" },
-  { name: "PHP", category: "Web" },
-  { name: "Flutter", category: "Mobile" },
-  { name: "React", category: "Web" },
-  { name: "JavaScript", category: "Web" },
-  { name: "TypeScript", category: "Web" },
-  { name: "MySQL", category: "Web" },
-  { name: "REST APIs", category: "Web" },
-  { name: "Figma", category: "Design" },
-  { name: "UI/UX Design", category: "Design" },
-  { name: "System Analysis", category: "Other" },
-  { name: "Data Modeling", category: "Other" },
-  { name: "Git & GitHub", category: "Other" }
-];
+// export const SKILLS: Skill[] = [
+//   { name: "Laravel", category: "Web" },
+//   { name: "PHP", category: "Web" },
+//   { name: "Flutter", category: "Mobile" },
+//   { name: "React", category: "Web" },
+//   { name: "JavaScript", category: "Web" },
+//   { name: "TypeScript", category: "Web" },
+//   { name: "MySQL", category: "Web" },
+//   { name: "REST APIs", category: "Web" },
+//   { name: "Figma", category: "Design" },
+//   { name: "UI/UX Design", category: "Design" },
+//   { name: "System Analysis", category: "Other" },
+//   { name: "Data Modeling", category: "Other" },
+//   { name: "Git & GitHub", category: "Other" }
+// ];
+
+
+export const SKILLS: SkillCategory[] = [
+    {
+      category: "Frontend",
+      items: ["React", "TypeScript", "JavaScript", "HTML", "CSS"]
+    },
+    {
+      category: "Mobile",
+      items: ["Flutter", "Dart", "GetX", "REST API Integration"]
+    },
+    {
+      category: "Backend",
+      items: ["Laravel", "PHP", "REST APIs", "Laravel Sanctum"]
+    },
+    {
+      category: "Database",
+      items: ["MySQL", "Eloquent ORM", "Data Modeling"]
+    },
+    {
+      category: "Design",
+      items: ["Figma", "UI/UX", "Prototyping", "Responsive Design"]
+    },
+    {
+      category: "Tools",
+      items: ["Git", "GitHub", "Postman", "VS Code"]
+    },
+    {
+      category: "Engineering",
+      items: ["System Analysis", "Software Architecture", "Feature-First Architecture", "Debugging"]
+    }
+  ];

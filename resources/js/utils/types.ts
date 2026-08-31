@@ -14,9 +14,14 @@ export interface Experience {
     period: string;
   }
 
-  export interface Skill {
-    name: string;
-    category: 'Mobile' | 'Web' | 'Design' | 'Other';
+//   export interface Skill {
+//     name: string;
+//     category: 'Mobile' | 'Web' | 'Design' | 'Other';
+//   }
+
+  export interface SkillCategory {
+    category: string;
+    items: string[];
   }
 
   export interface Project {
