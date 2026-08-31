@@ -12,7 +12,7 @@ import { EDUCATION, EXPERIENCES, PERSONAL_INFO, PROJECTS, SKILLS } from './utils
 
 function App() {
   return (
-    <div className="min-h-screen bg-[#0F172A] text-[#E5E7EB] selection:bg-[#38BDF8]/30 selection:text-white">
+    <div className="min-h-screen bg-doodle-pattern text-[#9EA8B6] selection:bg-[#00C4CC]/30 selection:text-white">
     <Navigation />
     <Hero />
 
@@ -35,11 +35,11 @@ function App() {
    <Contact />
 
     {/* Footer */}
-    <footer className="py-16 border-t border-slate-800 bg-[#0B1120]">
+    <footer className="py-16 border-t border-[#283141] bg-[#12161E]/95 backdrop-blur-md">
       <div className="max-w-7xl mx-auto px-4 text-center">
-        <p className="text-2xl font-black text-[#38BDF8] mb-6">AM.</p>
+        <p className="text-2xl font-black text-[#00C4CC] mb-6">AM.</p>
         <p className="text-slate-400 font-medium">© {new Date().getFullYear()} {PERSONAL_INFO.name}.</p>
-        <p className="text-xs text-slate-500 mt-4 uppercase tracking-[0.2em]">{PERSONAL_INFO.location} • Front End and Back End Developer</p>
+        <p className="text-xs text-slate-500 mt-4 uppercase tracking-[0.2em]">{PERSONAL_INFO.location} • Full Stack Developer</p>
       </div>
     </footer>
 
