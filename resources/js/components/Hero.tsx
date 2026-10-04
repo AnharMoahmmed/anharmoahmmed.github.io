@@ -37,7 +37,7 @@ const Hero: React.FC = () => {
           <a
             href={PERSONAL_INFO.cvUrl}
             className="px-7 py-3.5 bg-[#1E2430] text-white border border-[#283141] font-bold text-base rounded-2xl hover:bg-[#252D3A] hover:border-[#00C4CC]/30 transition-all duration-300 hover:scale-105 active:scale-95 flex items-center gap-2.5 shadow-md"
-            download
+            download="Anhar-Mohammed-CV.pdf"
           >
             <div className="p-1 rounded-md border border-[#9EA8B6]/40 flex items-center justify-center">
               <svg className="w-3.5 h-3.5 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24" strokeWidth="2.5">

@@ -8,8 +8,8 @@ body {
 }
 
 .bg-doodle-pattern {
-    background-color: #171C24;
-    background-image: url('/doodle-bg.png');
+    background-color: #0D1117;
+    background-image: linear-gradient(rgba(13, 17, 23, 0.90), rgba(13, 17, 23, 0.90)), url('/doodle-bg.png');
     background-repeat: repeat;
     background-size: 750px auto;
     background-attachment: fixed;

@@ -10,13 +10,26 @@ export const PERSONAL_INFO = {
   githubUrl: "https://github.com/AnharMoahmmed",
   linkedinUrl: "http://www.linkedin.com/in/anhar-mohammed-019705304",
   portfolioUrl: "https://anharmohammed.netlify.app/",
-  cvUrl: "#",
+  cvUrl: "/Anhar-Mohammed-CV.pdf",
   objective: "Motivated and detail-oriented Full Stack Developer and Information Technology graduate with hands-on experience in Laravel, PHP, Flutter, React, JavaScript, TypeScript, and MySQL. Experienced in developing web and mobile applications, REST APIs, dashboards, database-driven systems, and UI/UX designs. Strong problem-solving and system analysis skills with a focus on writing clean, maintainable, and scalable code. Eager to contribute to a professional development team and build reliable software solutions.",
   communication: "Excellent written and verbal communication skills. Proven ability to present technical concepts to both technical and non-technical audiences. Strong interpersonal skills gained through teaching and collaborative development.",
   leadership: "Led the design and development of a community-driven mobile application. Worked with small teams and managed timelines, user requirements, and iterative updates in agile environments."
 };
 
 export const PROJECTS: Project[] = [
+  {
+    title: "Pet Care App",
+    description: "Mobile application for comprehensive pet care management. Features pet profiles, vaccination records, appointment scheduling, veterinary services, automated reminders, and complete pet history tracking.",
+    technologies: ["Flutter", "Dart", "Firebase", "REST API"],
+    type: "Mobile App",
+    link: "https://github.com/AnharMoahmmed/pet_care_app.git"
+  },
+  {
+    title: "Law Office Management System",
+    description: "System analysis, workflow design, and ERD data modeling for legal practice management. Covers actors, use cases, role-based access control, lawyer-client tracking, court cases, hearings, contracts, documents, payments, and audit logs.",
+    technologies: ["Oracle APEX", "SQL", "PL/SQL", "System Analysis", "ERD"],
+    type: "System Analysis"
+  },
   {
     title: "Knowledge Share App",
     description: "A community-driven mobile platform for sharing educational resources and expertise among students and professionals. Features include resource categorization, user profiles, and real-time updates.",
