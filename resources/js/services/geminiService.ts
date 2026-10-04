@@ -15,7 +15,7 @@ const ai = new GoogleGenerativeAI(GEMINI_API_KEY || "dummy-key-if-not-set"); // 
 
 const SYSTEM_PROMPT = `
 You are a professional AI assistant for Anhar Mohammed's portfolio.
-Anhar is a Front End and Back End Developer based in Sana'a, Yemen.
+Anhar is a Full-Stack Developer based in Sana'a, Yemen.
 Your goal is to answer questions about Anhar's skills, experience, and projects based on the following information:
 
 NAME: ${PERSONAL_INFO.name}

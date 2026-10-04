@@ -4,7 +4,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <title>Anhar Mohammed | Front End and Back End Developer</title>
+    <title>Anhar Mohammed | Full-Stack Developer</title>
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -13,7 +13,7 @@
     @viteReactRefresh
     @vite(['resources/css/app.css', 'resources/js/main.tsx'])
 </head>
-<body class="bg-[#0F172A] text-[#E5E7EB]">
+<body class="bg-doodle-pattern text-[#9EA8B6]">
     <div id="root"></div>
 </body>
 </html>

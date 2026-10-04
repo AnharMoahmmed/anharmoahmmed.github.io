@@ -6,16 +6,24 @@ body {
     font-family: 'Plus Jakarta Sans', sans-serif;
     scroll-behavior: smooth;
 }
+
+.bg-doodle-pattern {
+    background-color: #0D1117;
+    background-image: linear-gradient(rgba(13, 17, 23, 0.90), rgba(13, 17, 23, 0.90)), url('/doodle-bg.png');
+    background-repeat: repeat;
+    background-size: 750px auto;
+    background-attachment: fixed;
+}
 ::-webkit-scrollbar {
     width: 8px;
 }
 ::-webkit-scrollbar-track {
-    background: #0F172A;
+    background: #171C24;
 }
 ::-webkit-scrollbar-thumb {
-    background: #1E293B;
+    background: #252D3A;
     border-radius: 10px;
 }
 ::-webkit-scrollbar-thumb:hover {
-    background: #38BDF8;
+    background: #00C4CC;
 }
