@@ -30,4 +30,5 @@ export interface Experience {
     technologies: string[];
     link?: string;
     type: 'Mobile App' | 'Web App' | 'UI/UX Design' | 'System Analysis';
+    image?: string;
   }

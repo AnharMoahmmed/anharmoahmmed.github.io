@@ -18,6 +18,21 @@ export const PERSONAL_INFO = {
 
 export const PROJECTS: Project[] = [
   {
+    title: "buda | بوضة — موقع العلامة الفاخرة للآيسكريم الحرفي",
+    description: "An immersive and interactive web experience for a luxury artisanal ice cream brand. The platform allows visitors to explore exquisite, handcrafted flavors (such as Authentic Sicilian Roasted Pistachio Cream, Chocolate, and Strawberry), discover the brands heritage and passion, read customer reviews, and enjoy a seamless ordering journey that exudes elegance and premium quality.",    technologies: ["React", "Vite", "Tailwind CSS v4", "Framer Motion", "Lucide React"],
+    type: "Web App",
+    link: "https://annabuda.netlify.app/",
+    image: "/projects/buda.png"
+  },
+  {
+    title: "Digital Invitation — منصة الدعوات الرقمية الفاخرة",
+    description: "An exquisite digital atelier platform designed for crafting and showcasing high-end digital invitation masterpieces. Representing the golden standard of royal digital invitations, it allows visitors to explore luxury artistic templates, interactive mobile previews, seamless RSVP workflows, bespoke animations, and rich ambient audio for an unforgettable event experience.",
+    technologies: ["React", "TypeScript", "Tailwind CSS", "Framer Motion", "UI/UX Design"],
+    type: "Web App",
+    link: "https://annadigitalinvitation.netlify.app/",
+    image: "/projects/digital-invitation.png"
+  },
+  {
     title: "Pet Care App",
     description: "Mobile application for comprehensive pet care management. Features pet profiles, vaccination records, appointment scheduling, veterinary services, automated reminders, and complete pet history tracking.",
     technologies: ["Flutter", "Dart", "Firebase", "REST API"],
@@ -35,7 +50,7 @@ export const PROJECTS: Project[] = [
     description: "A community-driven mobile platform for sharing educational resources and expertise among students and professionals. Features include resource categorization, user profiles, and real-time updates.",
     technologies: ["Flutter", "Dart", "Firebase", "Figma"],
     type: "Mobile App",
-    link: "https://github.com/AnharMoahmmed"
+    link: "https://github.com/AnharMoahmmed/KS.git"
   },
   {
     title: "Digital Wallet UI Design",
